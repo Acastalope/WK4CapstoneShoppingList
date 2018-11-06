@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<!-- this is the section where you will add your title  
+    the end user doesn't typically see anything that lives here -->
+    
+<link rel="stylesheet" type="text/css" href="style.css">
+    <title>My First Website</title>
+</head>
+
+<p>Product List:</p>
+<p>
+	<p>cheese</p>	
+	<p>milk</p>	
+	<p>eggs</p>	
+	</p>
+
+<!--<p> 
+  <button id = "addItem">cheese</button>
+    <!-<button onclick= "addCheese();">Add item</button>
+             </p>
+<p> 
+    <button onclick= "addMilk();">Add item</button>
+             </p>
+<p> 
+    <button onclick= "addEggs();">Add item</button>
+             </p>-->
+<p>
+  <span id="products" class="live"> _</span>
+      </p>
+
+<script src= "script.js"></script>
+
+<button onclick="myFunction()">Add Cheese</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "cheese";
+}
+</script>
+
+<p>
+<script src= "script.js"></script>
+
+<button onclick="myFunction()">Add Milk</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "milk";
+}
+</script>
+</p>
+
+</body>
+</html>
